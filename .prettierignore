@@ -6,4 +6,5 @@
 .gitmodules
 .prettierignore
 *.md
+index.js
 pnpm-lock.yaml
