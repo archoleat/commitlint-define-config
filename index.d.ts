@@ -1,4 +1,4 @@
-import type { UserConfig } from '@commitlint/types';
+import { UserConfig } from '@commitlint/types';
 
 /**
  * Define an Commitlint config.
@@ -7,8 +7,6 @@ import type { UserConfig } from '@commitlint/types';
  *
  * @returns Commitlint config.
  */
-const defineConfig = (config: UserConfig): UserConfig => {
-  return config;
-};
+declare const defineConfig: (config: UserConfig) => UserConfig;
 
 export { defineConfig };
