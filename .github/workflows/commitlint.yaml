@@ -5,7 +5,7 @@ on:
   push:
 
 jobs:
-  commit-lint:
+  commitlint:
     name: Lint
 
     runs-on: ubuntu-latest
