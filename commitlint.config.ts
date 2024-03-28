@@ -1,4 +1,4 @@
-import { defineConfig } from '.';
+import { defineConfig } from './index.ts';
 
 export default defineConfig({
   extends: ['@commitlint/config-conventional'],
