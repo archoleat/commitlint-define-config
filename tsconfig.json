@@ -23,5 +23,5 @@
     "target": "ESNext",
     "types": ["vitest"]
   },
-  "include": ["commitlint.config.ts", "define-config.ts", "index.ts"]
+  "include": ["define-config.ts", "index.ts"]
 }
