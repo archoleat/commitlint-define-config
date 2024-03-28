@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/archoleat/commitlint-define-config/compare/v1.0.1...v1.0.2) (2024-03-28)
+
+
+### Code Refactoring
+
+* **prettierignore:** add `index.ts` ([#14](https://github.com/archoleat/commitlint-define-config/issues/14)) ([482da62](https://github.com/archoleat/commitlint-define-config/commit/482da62b15826d7dc141c23e35409c9d99541146))
+
 ## [1.0.1](https://github.com/archoleat/commitlint-define-config/compare/v1.0.0...v1.0.1) (2024-03-28)
 
 
