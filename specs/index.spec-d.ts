@@ -1,6 +1,6 @@
 import { describe, expectTypeOf, test } from 'vitest';
 
-import { UserConfig } from '@commitlint/types';
+import type { UserConfig } from '@commitlint/types';
 
 import { defineConfig } from '../define-config.ts';
 
