@@ -1,8 +1,8 @@
 import { describe, expectTypeOf, test } from 'vitest';
 
-import type { UserConfig } from '@commitlint/types';
+import { UserConfig } from '@commitlint/types';
 
-import { defineConfig } from '../index.ts';
+import { defineConfig } from '../define-config.ts';
 
 describe('Define Config', () => {
   test('define empty config', () => {

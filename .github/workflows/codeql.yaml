@@ -5,12 +5,16 @@ on:
     branches:
       - main
     paths:
+      - index.d.ts
+      - index.js
       - index.ts
       - package.json
   push:
     branches:
       - main
     paths:
+      - index.d.ts
+      - index.js
       - index.ts
       - package.json
 
