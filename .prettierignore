@@ -7,4 +7,5 @@
 .prettierignore
 *.md
 index.js
+index.ts
 pnpm-lock.yaml
