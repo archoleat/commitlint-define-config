@@ -5,18 +5,14 @@ on:
     branches:
       - main
     paths:
-      - index.d.ts
-      - index.js
-      - index.ts
       - package.json
+      - src/index.ts
   push:
     branches:
       - main
     paths:
-      - index.d.ts
-      - index.js
-      - index.ts
       - package.json
+      - src/index.ts
 
 permissions:
   actions: read
