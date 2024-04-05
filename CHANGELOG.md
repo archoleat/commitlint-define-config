@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/archoleat/commitlint-define-config/compare/v1.0.3...v1.0.4) (2024-04-05)
+
+
+### Code Refactoring
+
+* **architecture:** rename `define-config` to `index` ([#23](https://github.com/archoleat/commitlint-define-config/issues/23)) ([01a3392](https://github.com/archoleat/commitlint-define-config/commit/01a33922ecd3209b3d4b453abd701d0a456d1a08))
+
 ## [1.0.3](https://github.com/archoleat/commitlint-define-config/compare/v1.0.2...v1.0.3) (2024-04-04)
 
 
