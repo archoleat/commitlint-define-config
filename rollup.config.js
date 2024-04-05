@@ -5,7 +5,7 @@ import { minify } from 'rollup-plugin-esbuild';
 
 import typescript from '@rollup/plugin-typescript';
 
-const indexFile = 'define-config.ts';
+const indexFile = 'src/index.ts';
 
 export default defineConfig([
   {

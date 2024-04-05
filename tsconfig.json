@@ -23,5 +23,5 @@
     "target": "ESNext",
     "types": ["vitest"]
   },
-  "include": ["define-config.ts", "index.ts"]
+  "include": ["src/index.ts"]
 }
