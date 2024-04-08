@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/archoleat/commitlint-define-config/compare/v1.0.4...v1.0.5) (2024-04-08)
+
+
+### Code Refactoring
+
+* **eslint:** add new rules ([#27](https://github.com/archoleat/commitlint-define-config/issues/27)) ([d40460e](https://github.com/archoleat/commitlint-define-config/commit/d40460e4befe9ebb43077c92856d3eff223dddb5))
+
 ## [1.0.4](https://github.com/archoleat/commitlint-define-config/compare/v1.0.3...v1.0.4) (2024-04-05)
 
 
