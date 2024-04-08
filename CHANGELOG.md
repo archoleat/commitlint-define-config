@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/archoleat/commitlint-define-config/compare/v1.0.5...v1.0.6) (2024-04-08)
+
+
+### Code Refactoring
+
+* **index:** remove extra braces ([#28](https://github.com/archoleat/commitlint-define-config/issues/28)) ([5e68b15](https://github.com/archoleat/commitlint-define-config/commit/5e68b15eae09dabf9a4862c8040f767512ec21fb))
+
 ## [1.0.5](https://github.com/archoleat/commitlint-define-config/compare/v1.0.4...v1.0.5) (2024-04-08)
 
 
