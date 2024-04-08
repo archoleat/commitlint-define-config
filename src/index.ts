@@ -7,8 +7,6 @@ import { UserConfig } from '@commitlint/types';
  *
  * @returns Commitlint config.
  */
-const defineConfig = (config: UserConfig): UserConfig => {
-  return config;
-};
+const defineConfig = (config: UserConfig): UserConfig => config;
 
 export { defineConfig };
