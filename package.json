@@ -1,7 +1,7 @@
 {
   "name": "@archoleat/commitlint-define-config",
   "description": "Provide a defineConfig function for commitlint.config.js file",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": {
     "email": "archoleat@gmail.com",
@@ -49,8 +49,8 @@
   ],
   "scripts": {
     "init": "pnpm i && husky",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
+    "spec": "vitest",
+    "spec:coverage": "vitest run --coverage",
     "build": "rollup -c",
     "release": "semantic-release",
     "lint:editorconfig": "editorconfig-checker",
@@ -84,7 +84,7 @@
     "eslint-define-config": "^2.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-unicorn": "^52.0.0",
     "globals": "^15.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
