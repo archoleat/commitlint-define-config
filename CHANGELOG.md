@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/archoleat/commitlint-define-config/compare/v1.0.6...v1.0.7) (2024-04-09)
+
+
+### Code Refactoring
+
+* **eslint:** rename unicorn import ([#29](https://github.com/archoleat/commitlint-define-config/issues/29)) ([81764d9](https://github.com/archoleat/commitlint-define-config/commit/81764d9eb7f0e540f2313ec360f09fbbfb565b0d))
+
 ## [1.0.6](https://github.com/archoleat/commitlint-define-config/compare/v1.0.5...v1.0.6) (2024-04-08)
 
 
