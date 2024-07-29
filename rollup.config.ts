@@ -5,22 +5,24 @@ import { minify } from 'rollup-plugin-esbuild';
 
 import typescript from '@rollup/plugin-typescript';
 
-const indexFile = 'src/index.ts';
+const fileName = 'index';
+const indexFile = `src/${fileName}.ts`;
+const handlers = [typescript(), minify()];
 
 export default defineConfig([
   {
-    plugins: [typescript(), minify()],
+    plugins: handlers,
     input: indexFile,
     output: {
-      file: 'index.js',
+      file: `${fileName}.js`,
       format: 'es',
     },
   },
   {
-    plugins: [typescript(), minify()],
+    plugins: handlers,
     input: indexFile,
     output: {
-      file: 'index.ts',
+      file: `${fileName}.ts`,
       format: 'es',
     },
   },
@@ -28,7 +30,7 @@ export default defineConfig([
     plugins: [dts()],
     input: indexFile,
     output: {
-      file: 'index.d.ts',
+      file: `${fileName}.d.ts`,
     },
   },
 ]);

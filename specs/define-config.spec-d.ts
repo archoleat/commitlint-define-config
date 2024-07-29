@@ -2,7 +2,7 @@ import { describe, expectTypeOf, test as spec } from 'vitest';
 
 import type { UserConfig } from '@commitlint/types';
 
-import { defineConfig } from '../src/index.ts';
+import { defineConfig } from '#index';
 
 describe('Define Commitlint Config', () => {
   spec('define empty config', () => {
