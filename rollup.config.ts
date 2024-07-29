@@ -7,22 +7,13 @@ import typescript from '@rollup/plugin-typescript';
 
 const fileName = 'index';
 const indexFile = `src/${fileName}.ts`;
-const handlers = [typescript(), minify()];
 
 export default defineConfig([
   {
-    plugins: handlers,
+    plugins: [typescript(), minify()],
     input: indexFile,
     output: {
       file: `${fileName}.js`,
-      format: 'es',
-    },
-  },
-  {
-    plugins: handlers,
-    input: indexFile,
-    output: {
-      file: `${fileName}.ts`,
       format: 'es',
     },
   },

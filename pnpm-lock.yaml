@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@commitlint/types':
-        specifier: ^19.0.3
-        version: 19.0.3
     devDependencies:
       '@archoleat/commitlint-define-config':
         specifier: 'file:'
@@ -27,6 +23,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.2.2
         version: 19.2.2
+      '@commitlint/types':
+        specifier: ^19.0.3
+        version: 19.0.3
       '@rollup/plugin-typescript':
         specifier: ^11.1.6
         version: 11.1.6(rollup@4.19.1)(tslib@2.6.3)(typescript@5.5.4)
@@ -3970,9 +3969,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@archoleat/commitlint-define-config@file:':
-    dependencies:
-      '@commitlint/types': 19.0.3
+  '@archoleat/commitlint-define-config@file:': {}
 
   '@archoleat/eslint-flat-compatibility@1.1.6':
     dependencies:

@@ -41,13 +41,11 @@
     "#index": "./src/index.ts"
   },
   "exports": {
-    ".": "./index.js",
-    "./index.ts": "./index.ts"
+    ".": "./index.js"
   },
   "files": [
     "index.d.ts",
-    "index.js",
-    "index.ts"
+    "index.js"
   ],
   "scripts": {
     "init": "pnpm i && husky",
@@ -62,8 +60,10 @@
     "prettify": "prettier . --write",
     "commit": "cz"
   },
-  "dependencies": {
-    "@commitlint/types": "^19.0.3"
+  "peerDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@commitlint/types": "^19.0.0"
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "file:",
@@ -71,6 +71,7 @@
     "@archoleat/semantic-release-define-config": "^1.1.4",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/types": "^19.0.3",
     "@rollup/plugin-typescript": "^11.1.6",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
