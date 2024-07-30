@@ -3,9 +3,6 @@
 
 # files
 *.md
-index.d.ts
-index.js
-index.ts
 pnpm-lock.yaml
 
 # *rc
