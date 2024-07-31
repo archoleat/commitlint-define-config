@@ -5,11 +5,11 @@ import type { UserConfig } from '@commitlint/types';
 import { defineConfig } from '#src';
 
 describe('Define Commitlint Config', () => {
-  spec('define empty config', () => {
+  spec('define empty config', async () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<UserConfig>();
   });
 
-  spec('define config', () => {
+  spec('define config', async () => {
     expectTypeOf(
       defineConfig({
         defaultIgnores: true,
