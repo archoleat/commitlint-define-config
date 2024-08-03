@@ -17,6 +17,7 @@
     "url": "https://github.com/archoleat/commitlint-define-config/issues"
   },
   "keywords": [
+    "archoleat-commitlint-define-config",
     "archoleat",
     "commitlint-config",
     "commitlint-define-config",
@@ -24,6 +25,7 @@
     "config",
     "configuration",
     "define-config",
+    "plugin",
     "typescript"
   ],
   "packageManager": "pnpm@9.4.0",
