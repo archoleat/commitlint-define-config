@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.8](https://github.com/archoleat/commitlint-define-config/compare/v1.0.7...v1.0.8) (2024-08-06)
+
+### Code Refactoring
+
+* small changes ([#37](https://github.com/archoleat/commitlint-define-config/issues/37)) ([12813d0](https://github.com/archoleat/commitlint-define-config/commit/12813d09b233087e117612097a62730dc22a3c9f))
+
 ## [1.0.7](https://github.com/archoleat/commitlint-define-config/compare/v1.0.6...v1.0.7) (2024-04-09)
 
 
