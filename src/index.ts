@@ -1,4 +1,4 @@
-import { UserConfig } from '@commitlint/types';
+import type { UserConfig } from '@commitlint/types';
 
 /**
  * Define an Commitlint config.

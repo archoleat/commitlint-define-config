@@ -2,14 +2,14 @@ import { describe, expectTypeOf, test as spec } from 'vitest';
 
 import type { UserConfig } from '@commitlint/types';
 
-import { defineConfig } from '../src/index.ts';
+import { defineConfig } from '#src';
 
-describe('Define Commitlint Config', () => {
-  spec('define empty config', () => {
+describe('Commitlint Config', () => {
+  spec('empty config', async () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<UserConfig>();
   });
 
-  spec('define config', () => {
+  spec('config', async () => {
     expectTypeOf(
       defineConfig({
         defaultIgnores: true,

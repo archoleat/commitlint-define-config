@@ -1,20 +1,21 @@
-# directories
+# Directories
 .husky
 
-# files
+# Files
 *.md
 index.js
-index.ts
 pnpm-lock.yaml
 
 # *rc
 .czrc
 .ecrc
+.npmrc
 
-# configs
+# Configs
 .editorconfig
 .gitattributes
 
-# ignores
+# Ignores
 .gitignore
 .prettierignore
+.remarkignore
