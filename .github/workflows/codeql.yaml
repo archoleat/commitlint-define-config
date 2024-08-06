@@ -5,12 +5,14 @@ on:
     branches:
       - main
     paths:
+      - index.js
       - package.json
       - src/index.ts
   push:
     branches:
       - main
     paths:
+      - index.js
       - package.json
       - src/index.ts
 
