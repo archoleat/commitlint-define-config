@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.9](https://github.com/archoleat/commitlint-define-config/compare/v1.0.8...v1.0.9) (2024-08-09)
+
+### Code Refactoring
+
+* add `d.ts` file in root ([#69](https://github.com/archoleat/commitlint-define-config/issues/69)) ([0a2a9e2](https://github.com/archoleat/commitlint-define-config/commit/0a2a9e2274962e1f70a3e1b5cf3f26a2049d0413))
+* add define-config ([#70](https://github.com/archoleat/commitlint-define-config/issues/70)) ([979099c](https://github.com/archoleat/commitlint-define-config/commit/979099cd76c10c43768dfc89835be788a7c98edf))
+* small changes ([#71](https://github.com/archoleat/commitlint-define-config/issues/71)) ([b3dfb02](https://github.com/archoleat/commitlint-define-config/commit/b3dfb027f6f47a6b5a593b53a050a650efc9194a))
+
 ## [1.0.8](https://github.com/archoleat/commitlint-define-config/compare/v1.0.7...v1.0.8) (2024-08-06)
 
 ### Code Refactoring
