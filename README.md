@@ -10,7 +10,7 @@
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/prettier.yaml?label=Prettier)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/eslint.yaml?label=ESLint)
-![Markdown](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/markdown.yaml?label=Markdown)
+![Remark](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/remark.yaml?label=Remark)
 
 ## Table of Contents
 
