@@ -22,23 +22,7 @@
 ## Installation
 
 ```shell
-# bun
 bun i -D @archoleat/commitlint-define-config
-```
-
-```shell
-# pnpm
-pnpm i -D @archoleat/commitlint-define-config
-```
-
-```shell
-# npm
-npm i -D @archoleat/commitlint-define-config
-```
-
-```shell
-# yarn
-yarn add -D @archoleat/commitlint-define-config
 ```
 
 ## Usage
