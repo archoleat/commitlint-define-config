@@ -3,7 +3,7 @@ import { UserConfig } from '@commitlint/types';
 /**
  * Define an Commitlint config.
  *
- * @param {object} config Commitlint config.
+ * @param {object} config Commitlint.
  *
  * @returns Commitlint config.
  */
