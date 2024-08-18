@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.10](https://github.com/archoleat/commitlint-define-config/compare/v1.0.9...v1.0.10) (2024-08-18)
+
+### Code Refactoring
+
+* move `package.json` scripts to ci ([#80](https://github.com/archoleat/commitlint-define-config/issues/80)) ([71faf55](https://github.com/archoleat/commitlint-define-config/commit/71faf55396067acc4cac26f82ced1ed29629ca9b))
+* **tsconfig:** remove `composite` option ([#76](https://github.com/archoleat/commitlint-define-config/issues/76)) ([c2d7324](https://github.com/archoleat/commitlint-define-config/commit/c2d7324ff001462c3b29a0f769cfd3a211cffd81))
+* small changes ([#75](https://github.com/archoleat/commitlint-define-config/issues/75)) ([868ca10](https://github.com/archoleat/commitlint-define-config/commit/868ca1044d09d0de8076032d7ec0bcb68f8ce52b))
+
+### Documentation
+
+* **readme:** remove extra scripts ([#77](https://github.com/archoleat/commitlint-define-config/issues/77)) ([b8d3105](https://github.com/archoleat/commitlint-define-config/commit/b8d310546b0918cb6a330622238c0bd9905a561d))
+
 ## [1.0.9](https://github.com/archoleat/commitlint-define-config/compare/v1.0.8...v1.0.9) (2024-08-09)
 
 ### Code Refactoring
