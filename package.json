@@ -11,7 +11,7 @@
   "homepage": "https://github.com/archoleat/commitlint-define-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/archoleat/commitlint-define-config.git"
+    "url": "https://github.com/archoleat/commitlint-define-config.git"
   },
   "bugs": {
     "url": "https://github.com/archoleat/commitlint-define-config/issues"
@@ -28,14 +28,10 @@
     "plugin",
     "typescript"
   ],
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.7.0",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=9.0.0"
-  },
-  "volta": {
-    "node": "20.16.0",
-    "pnpm": "9.4.0"
   },
   "type": "module",
   "types": "index.d.ts",
@@ -91,7 +87,7 @@
     "remark-preset-lint-consistent": "^6.0.0",
     "remark-preset-lint-markdown-style-guide": "^6.0.0",
     "remark-preset-lint-recommended": "^7.0.0",
-    "rollup": "^4.20.0",
+    "rollup": "^4.21.0",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
     "semantic-release": "^24.1.0",
