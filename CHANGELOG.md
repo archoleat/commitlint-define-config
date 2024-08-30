@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.11](https://github.com/archoleat/commitlint-define-config/compare/v1.0.10...v1.0.11) (2024-08-30)
+
+### Bug Fixes
+
+* **eslint-config:** add `files` option ([#87](https://github.com/archoleat/commitlint-define-config/issues/87)) ([33e9e1e](https://github.com/archoleat/commitlint-define-config/commit/33e9e1eaece2f5663259e500899553988cd1d854))
+
+### Code Refactoring
+
+* eslint ([#86](https://github.com/archoleat/commitlint-define-config/issues/86)) ([5e75b6c](https://github.com/archoleat/commitlint-define-config/commit/5e75b6c41ee1c4a3cd6881fcf23a0f9fa6345762))
+* **prettierignore:** remove `.czrc` ([#83](https://github.com/archoleat/commitlint-define-config/issues/83)) ([0650e16](https://github.com/archoleat/commitlint-define-config/commit/0650e16412b20d651a82f552db48d35e09f14cbd))
+* remove index file ([#88](https://github.com/archoleat/commitlint-define-config/issues/88)) ([81d9ed1](https://github.com/archoleat/commitlint-define-config/commit/81d9ed1c1d890eccab0d89866fc5e87ca066c302))
+
 ## [1.0.10](https://github.com/archoleat/commitlint-define-config/compare/v1.0.9...v1.0.10) (2024-08-18)
 
 ### Code Refactoring
