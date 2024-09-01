@@ -29,13 +29,13 @@ bun i -D @archoleat/commitlint-define-config
 
 See [Commitlint Configuration](https://commitlint.js.org/reference/configuration.html).
 
+Add the following code to the `commitlint.config.ts` or `commitlint.config.js`
+file:
+
 ```js
-// commitlint.config.js or commitlint.config.ts
 import { defineConfig } from '@archoleat/commitlint-define-config';
 
-export default defineConfig({
-  // Your options
-})
+export default defineConfig({})
 ```
 
 ## Contributing
