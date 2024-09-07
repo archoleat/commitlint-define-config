@@ -11,7 +11,7 @@
   "homepage": "https://github.com/archoleat/commitlint-define-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/archoleat/commitlint-define-config.git"
+    "url": "git+https://github.com/archoleat/commitlint-define-config.git"
   },
   "bugs": {
     "url": "https://github.com/archoleat/commitlint-define-config/issues"
