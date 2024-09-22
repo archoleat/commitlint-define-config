@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.12](https://github.com/archoleat/commitlint-define-config/compare/v1.0.11...v1.0.12) (2024-09-22)
+
+### Code Refactoring
+
+* **package:** add `git+` ([#98](https://github.com/archoleat/commitlint-define-config/issues/98)) ([cc13e2d](https://github.com/archoleat/commitlint-define-config/commit/cc13e2d5238f5f9a2f7f98e3194c7f5d9bcb441a))
+* **prettier:** remove json override ([#99](https://github.com/archoleat/commitlint-define-config/issues/99)) ([d1b1920](https://github.com/archoleat/commitlint-define-config/commit/d1b19207f8e3a1ff9a62ca90ee9cbec1f00c5373))
+* specs ([#100](https://github.com/archoleat/commitlint-define-config/issues/100)) ([dd66e9b](https://github.com/archoleat/commitlint-define-config/commit/dd66e9b204c07da7aeb7de43a9c8b9ff05ffb5b8))
+
+### Documentation
+
+* **readme:** update ([#96](https://github.com/archoleat/commitlint-define-config/issues/96)) ([7b831bb](https://github.com/archoleat/commitlint-define-config/commit/7b831bb83291f11ce3865e23aef1392a29c36ce8))
+
 ## [1.0.11](https://github.com/archoleat/commitlint-define-config/compare/v1.0.10...v1.0.11) (2024-08-30)
 
 ### Bug Fixes
