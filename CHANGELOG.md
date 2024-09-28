@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.0](https://github.com/archoleat/commitlint-define-config/compare/v1.0.12...v1.1.0) (2024-09-28)
+
+### Features
+
+* add `funding.yaml` ([#102](https://github.com/archoleat/commitlint-define-config/issues/102)) ([91f621b](https://github.com/archoleat/commitlint-define-config/commit/91f621b5129fc7153aa38f231967b8cb67d7df10))
+
+### Code Refactoring
+
+* move build script to `release.yaml` ([#103](https://github.com/archoleat/commitlint-define-config/issues/103)) ([c3b0f2f](https://github.com/archoleat/commitlint-define-config/commit/c3b0f2fcc0f9c67d203da8951fcef5335714272a))
+* specs and comment ([#104](https://github.com/archoleat/commitlint-define-config/issues/104)) ([f3e827f](https://github.com/archoleat/commitlint-define-config/commit/f3e827ff2bba5751516b08ada34e64bba9b86d05))
+
 ## [1.0.12](https://github.com/archoleat/commitlint-define-config/compare/v1.0.11...v1.0.12) (2024-09-22)
 
 ### Code Refactoring
