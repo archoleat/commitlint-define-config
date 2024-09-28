@@ -5,7 +5,7 @@ import type { UserConfig } from '@commitlint/types';
  *
  * @param {object} config Commitlint.
  *
- * @returns Commitlint config.
+ * @return Commitlint config.
  */
 const defineConfig = (config: UserConfig): UserConfig => config;
 

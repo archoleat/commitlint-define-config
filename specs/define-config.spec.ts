@@ -5,6 +5,22 @@ import { defineConfig } from '#index';
 import type { UserConfig } from '@commitlint/types';
 
 describe('Commitlint Config', async () => {
+  const generateEnum = async () => ({
+    customProperty: {
+      description: '',
+      title: '',
+      emoji: '',
+    },
+  });
+
+  const promptQuestions = async () => ({
+    description: '',
+    messages: {
+      customMessage: '',
+    },
+    enum: await generateEnum(),
+  });
+
   spec('should return empty config', async () => {
     expectTypeOf(defineConfig({})).toEqualTypeOf<UserConfig>();
   });
@@ -42,162 +58,18 @@ describe('Commitlint Config', async () => {
             scopeEnumSeparator: '',
           },
           questions: {
-            header: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            type: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            scope: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            subject: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            body: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            footer: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            isBreaking: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            breakingBody: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            breaking: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            isIssueAffected: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            issuesBody: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
-            issues: {
-              description: '',
-              messages: {
-                customMessage: '',
-              },
-              enum: {
-                customProperty: {
-                  description: '',
-                  title: '',
-                  emoji: '',
-                },
-              },
-            },
+            body: await promptQuestions(),
+            breaking: await promptQuestions(),
+            breakingBody: await promptQuestions(),
+            footer: await promptQuestions(),
+            header: await promptQuestions(),
+            isBreaking: await promptQuestions(),
+            isIssueAffected: await promptQuestions(),
+            issues: await promptQuestions(),
+            issuesBody: await promptQuestions(),
+            scope: await promptQuestions(),
+            subject: await promptQuestions(),
+            type: await promptQuestions(),
           },
         },
         rules: {},
