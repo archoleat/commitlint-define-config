@@ -1,8 +1,7 @@
 import { describe, expectTypeOf, test as spec } from 'vitest';
+import type { UserConfig } from '@commitlint/types';
 
 import { defineConfig } from '#index';
-
-import type { UserConfig } from '@commitlint/types';
 
 describe('Commitlint Config', async () => {
   const generateEnum = async () => ({
