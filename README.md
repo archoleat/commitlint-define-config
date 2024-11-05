@@ -4,7 +4,6 @@
 ![NPM Downloads](https://img.shields.io/npm/dm/%40archoleat%2Fcommitlint-define-config)
 ![ESM](https://img.shields.io/badge/ESM-fe0)
 ![Provenance](https://img.shields.io/badge/Provenance-fo0)
-![CodeQL](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/codeql.yaml?label=CodeQL)
 ![Specs](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/spec.yaml?label=Specs)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/commitlint.yaml?label=Commitlint)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/commitlint-define-config/editorconfig.yaml?label=Editorconfig)
