@@ -3,79 +3,79 @@ import type { UserConfig } from '@commitlint/types';
 
 import { defineConfig } from '#src/index.ts';
 
-describe('Commitlint Config', () => {
-  const generateEnum = () => ({
-    customProperty: {
-      description: '',
-      title: '',
-      emoji: '',
-    },
-  });
-
-  const promptQuestions = () => ({
+const generateEnum = () => ({
+  customProperty: {
     description: '',
-    messages: {
-      customMessage: '',
+    title: '',
+    emoji: '',
+  },
+});
+
+const promptQuestions = () => ({
+  description: '',
+  messages: {
+    customMessage: '',
+  },
+  enum: generateEnum(),
+});
+
+const config = defineConfig({
+  defaultIgnores: true,
+  extends: [''],
+  formatter: '',
+  helpUrl: '',
+  ignores: [() => true],
+  parserPreset: {
+    name: '',
+    parserOpts: '',
+    path: '',
+  },
+  plugins: [
+    {
+      rules: {},
     },
-    enum: generateEnum(),
-  });
+    '',
+  ],
+  prompt: {
+    messages: {
+      emptyWarning: '',
+      lowerLimitWarning: '',
+      max: '',
+      min: '',
+      skip: '',
+      upperLimitWarning: '',
+    },
+    settings: {
+      enableMultipleScopes: true,
+      scopeEnumSeparator: '',
+    },
+    questions: {
+      body: promptQuestions(),
+      breaking: promptQuestions(),
+      breakingBody: promptQuestions(),
+      footer: promptQuestions(),
+      header: promptQuestions(),
+      isBreaking: promptQuestions(),
+      isIssueAffected: promptQuestions(),
+      issues: promptQuestions(),
+      issuesBody: promptQuestions(),
+      scope: promptQuestions(),
+      subject: promptQuestions(),
+      type: promptQuestions(),
+    },
+  },
+  rules: {},
+});
 
+describe('Commitlint Config', () => {
   spec('should return empty config', () => {
-    const config = defineConfig({});
+    const emptyConfig = defineConfig({});
 
-    expect(config).toMatchObject({});
-    expect(config satisfies UserConfig).toBeDefined();
+    expect(emptyConfig).toMatchObject({});
+    expect(emptyConfig satisfies UserConfig).toBeDefined();
   });
 
   spec('should return config with all properties', () => {
-    const config = defineConfig({
-      defaultIgnores: true,
-      extends: [''],
-      formatter: '',
-      helpUrl: '',
-      ignores: [() => true],
-      parserPreset: {
-        name: '',
-        parserOpts: '',
-        path: '',
-      },
-      plugins: [
-        {
-          rules: {},
-        },
-        '',
-      ],
-      prompt: {
-        messages: {
-          emptyWarning: '',
-          lowerLimitWarning: '',
-          max: '',
-          min: '',
-          skip: '',
-          upperLimitWarning: '',
-        },
-        settings: {
-          enableMultipleScopes: true,
-          scopeEnumSeparator: '',
-        },
-        questions: {
-          body: promptQuestions(),
-          breaking: promptQuestions(),
-          breakingBody: promptQuestions(),
-          footer: promptQuestions(),
-          header: promptQuestions(),
-          isBreaking: promptQuestions(),
-          isIssueAffected: promptQuestions(),
-          issues: promptQuestions(),
-          issuesBody: promptQuestions(),
-          scope: promptQuestions(),
-          subject: promptQuestions(),
-          type: promptQuestions(),
-        },
-      },
-      rules: {},
-    });
-
     expect(config).toMatchObject({
       defaultIgnores: true,
       extends: [''],
