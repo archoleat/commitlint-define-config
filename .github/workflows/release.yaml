@@ -10,7 +10,6 @@ on:
     branches:
       - main
 
-# For NPM provenance
 permissions:
   id-token: write
 
@@ -48,11 +47,11 @@ jobs:
       - name: Install Dependencies
         run: bun i
 
-      # - name: Build
-      #   run: bun build
+      - name: Build
+        run: bun build
 
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-          # NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
         run: bun semantic-release
