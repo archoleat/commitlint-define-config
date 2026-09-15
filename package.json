@@ -17,15 +17,9 @@
     "url": "https://github.com/archoleat/commitlint-define-config/issues"
   },
   "keywords": [
-    "archoleat-commitlint-define-config",
     "archoleat",
-    "commitlint-config",
     "commitlint-define-config",
     "commitlint",
-    "config",
-    "configuration",
-    "define-config",
-    "plugin",
     "typescript"
   ],
   "engines": {
@@ -65,7 +59,7 @@
     "@typescript-eslint/eslint-plugin": "^8.62.1",
     "@typescript-eslint/parser": "^8.62.1",
     "conventional-changelog-conventionalcommits": "^10.2.0",
-    "editorconfig-checker": "^6.1.1",
+    "editorconfig-checker": "^7.0.0",
     "eslint": "^10.6.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-define-config": "^2.1.0",
