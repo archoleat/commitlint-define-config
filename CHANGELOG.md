@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/archoleat/commitlint-define-config/compare/v1.1.2...v1.1.3) (2026-09-15)
+
+### Bug Fixes
+
+* **ci:** declare TypeScript and use client-id ([5be5953](https://github.com/archoleat/commitlint-define-config/commit/5be5953569a96ab142b483a6269266065a5ce3a8))
+* **release:** use compatible changelog preset ([04c1321](https://github.com/archoleat/commitlint-define-config/commit/04c13212941c8216a828079277a24aeea6a77d4f))
+
 ## [1.1.2](https://github.com/archoleat/commitlint-define-config/compare/v1.1.1...v1.1.2) (2026-07-01)
 
 ### Bug Fixes
