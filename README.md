@@ -13,6 +13,7 @@
 ## Table of Contents
 
 - [Installation](#installation)
+- [Runtime](#runtime)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -20,15 +21,27 @@
 Use `defineConfig` for completion and option checking when composing a
 Commitlint configuration. It returns the object unchanged; native JSDoc with
 `import('@commitlint/types').UserConfig` or `satisfies UserConfig` avoids the
-extra helper. The declared peers cover Commitlint CLI, conventional config,
-and types 19–21; configuration execution and rule validation remain Commitlint's
+extra helper.
+Only `@commitlint/types` 19–21 is a required peer; the helper does not import
+the CLI or a rule preset. Install those separately when you run Commitlint.
+Configuration execution and rule validation remain Commitlint's
 responsibility.
 
 ## Installation
 
 ```shell
-bun i -D @archoleat/commitlint-define-config
+bun i -D @archoleat/commitlint-define-config @commitlint/types
 ```
+
+To run conventional commit checks, also install `@commitlint/cli` and
+`@commitlint/config-conventional` in your project. The helper itself does
+not choose or install a rule preset.
+
+## Runtime
+
+This ES module is loaded by the host tool's configuration loader. Follow
+the Node.js requirements of that tool. Bun is used for repository tooling,
+not required to call the published helper.
 
 ## Usage
 
