@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.6](https://github.com/archoleat/commitlint-define-config/compare/v1.1.5...v1.1.6) (2026-11-09)
+
+### Bug Fixes
+
+* align package description with repository metadata ([519ae52](https://github.com/archoleat/commitlint-define-config/commit/519ae5299c53cbf2f33cf18ab4929be67a5e2beb))
+
 ## [1.1.5](https://github.com/archoleat/commitlint-define-config/compare/v1.1.4...v1.1.5) (2026-11-09)
 
 ### Bug Fixes
