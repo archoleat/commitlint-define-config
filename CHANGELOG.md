@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.4](https://github.com/archoleat/commitlint-define-config/compare/v1.1.3...v1.1.4) (2026-11-09)
+
+### Bug Fixes
+
+* remove unnecessary commitlint peers ([f35a225](https://github.com/archoleat/commitlint-define-config/commit/f35a225f801631aaff24fa3e1677b2c64f5b0d11))
+
+### Documentation
+
+* clarify usage and project constraints ([db4b001](https://github.com/archoleat/commitlint-define-config/commit/db4b001ebac57292f6b25e17e5e1c2eab7ab1795))
+
 ## [1.1.3](https://github.com/archoleat/commitlint-define-config/compare/v1.1.2...v1.1.3) (2026-09-15)
 
 ### Bug Fixes
