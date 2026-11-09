@@ -1,6 +1,6 @@
 {
   "name": "@archoleat/commitlint-define-config",
-  "description": "Provide a defineConfig function for Commitlint",
+  "description": "Typed defineConfig helper for Commitlint configuration and editor completion.",
   "version": "1.1.5",
   "license": "MIT",
   "author": {
