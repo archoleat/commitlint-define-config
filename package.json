@@ -18,8 +18,9 @@
   },
   "keywords": [
     "archoleat",
-    "commitlint-define-config",
     "commitlint",
+    "configuration",
+    "developer-tools",
     "typescript"
   ],
   "type": "module",
