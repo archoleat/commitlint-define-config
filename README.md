@@ -17,7 +17,12 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-Provide a defineConfig function for Commitlint.
+Use `defineConfig` for completion and option checking when composing a
+Commitlint configuration. It returns the object unchanged; native JSDoc with
+`import('@commitlint/types').UserConfig` or `satisfies UserConfig` avoids the
+extra helper. The declared peers cover Commitlint CLI, conventional config,
+and types 19–21; configuration execution and rule validation remain Commitlint's
+responsibility.
 
 ## Installation
 
@@ -35,7 +40,7 @@ file:
 ```js
 import { defineConfig } from '@archoleat/commitlint-define-config';
 
-export default defineConfig({})
+export default defineConfig({});
 ```
 
 ## Contributing
