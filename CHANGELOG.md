@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.5](https://github.com/archoleat/commitlint-define-config/compare/v1.1.4...v1.1.5) (2026-11-09)
+
+### Bug Fixes
+
+* align npm keywords with repository topics ([c903737](https://github.com/archoleat/commitlint-define-config/commit/c9037377a3eb39072658b1ccefa22a46d47088a3))
+
 ## [1.1.4](https://github.com/archoleat/commitlint-define-config/compare/v1.1.3...v1.1.4) (2026-11-09)
 
 ### Bug Fixes
